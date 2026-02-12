@@ -29,6 +29,7 @@ Route::middleware('auth:sanctum')->group(function () {
     
 
     //API FITUR 3
+    Route::get('/viewbox', [BoxController::class, 'viewBox']);
 
     //DAN SETERUSNYA
 });
